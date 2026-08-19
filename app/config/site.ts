@@ -1,5 +1,6 @@
-export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://jaswellnessspa.com';
+export const SITE_URL = (
+  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://jaswellnessspa.com'
+).replace(/\/$/, '');
 export const SITE_NAME = 'JAS Wellness Spa';
 export const SITE_DESCRIPTION =
   'Discover a premium spa ritual in Pondicherry with expert massage, facial and aromatherapy treatments designed for complete relaxation.';
