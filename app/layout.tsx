@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import StructuredData from './components/StructuredData';
 import FloatingWhatsApp from './components/FloatingWhatsApp';
 import { BUSINESS_PHONE, SAME_AS_URLS, SITE_DESCRIPTION, SITE_NAME, SITE_URL } from './config/site';
+import Script from 'next/script';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -87,6 +88,18 @@ export default function RootLayout({
             },
           ]}
         />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-YT3PB2CG1Z"
+          strategy="afterInteractive"
+        />
+        <Script id="ga4" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-YT3PB2CG1Z');
+          `}
+        </Script>
         <Navbar />
         {children}
         <FloatingWhatsApp />
