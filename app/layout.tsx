@@ -46,6 +46,9 @@ export const metadata: Metadata = {
     description: SITE_DESCRIPTION,
     images: ['/images/aroma.jpeg'],
   },
+  verification: {
+    google: 'vM1tB27rdclV50uXDfxT7pxF8nwHu2vK9O9Er1_FsCU',
+  },
 };
 
 export default function RootLayout({
