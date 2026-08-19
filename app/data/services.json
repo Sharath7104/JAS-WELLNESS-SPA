@@ -1,0 +1,210 @@
+{
+  "showPricing": false,
+  "categories": [
+    {
+      "name": "Body Massages",
+      "services": [
+        {
+          "id": 1,
+          "name": "Swedish Massage",
+          "price": "₹1,999",
+          "duration": "60 mins",
+          "description": "A classic full-body relaxation massage using long, flowing strokes to ease tension, improve circulation, and melt away stress.",
+          "benefits": ["Deep stress relief", "Improved blood circulation", "Muscle relaxation", "Better sleep quality"],
+          "image": "/images/services/swedish.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Deep Tissue Massage",
+          "price": "₹2,499",
+          "duration": "75 mins",
+          "description": "Targets the deeper layers of muscle and connective tissue using firm, slow strokes to break down chronic muscle tension and knots.",
+          "benefits": ["Chronic pain relief", "Improved posture", "Reduced muscle stiffness", "Faster injury recovery"],
+          "image": "/images/services/deep-tissue.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Aromatherapy Massage",
+          "price": "₹1,799",
+          "duration": "60 mins",
+          "description": "A deeply soothing massage combining the healing power of essential oils with gentle techniques to restore balance to mind and body.",
+          "benefits": ["Mental relaxation", "Mood enhancement", "Better sleep", "Reduced anxiety"],
+          "image": "/images/services/aromatherapy.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Red Wine Massage",
+          "price": "₹3,500",
+          "duration": "60 mins",
+          "description": "A luxurious treatment using antioxidant-rich red wine extract to rejuvenate skin, fight free radicals, and leave you glowing.",
+          "benefits": ["Anti-ageing antioxidants", "Skin rejuvenation", "Improved elasticity", "Deep relaxation"],
+          "image": "/images/services/red-wine.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Four Hand Massage",
+          "price": "₹4,000",
+          "duration": "60 mins",
+          "description": "An extraordinary experience with two therapists working in perfect synchrony, delivering twice the relaxation in a single session.",
+          "benefits": ["Ultimate stress relief", "Full-body synchrony", "Deeper muscle release", "Premium luxury experience"],
+          "image": "/images/services/four-hand.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Oil Massages",
+      "services": [
+        {
+          "id": 6,
+          "name": "Sweet Almond Oil Massage",
+          "price": "₹2,600",
+          "duration": "60 mins",
+          "description": "Rich in Vitamin E and fatty acids, sweet almond oil deeply nourishes skin while gentle massage strokes ease tired muscles and promote calm.",
+          "benefits": ["Deep skin nourishment", "Vitamin E infusion", "Softened dry skin", "Relaxed muscles"],
+          "image": "/images/services/almond-oil.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Olive Oil Massage",
+          "price": "₹2,300",
+          "duration": "60 mins",
+          "description": "Warm, extra-virgin olive oil glides over the body in long soothing strokes, locking in moisture and delivering powerful antioxidant protection.",
+          "benefits": ["Intense moisturisation", "Antioxidant protection", "Improved skin tone", "Soothing warmth"],
+          "image": "/images/services/olive-oil.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Coconut Oil Massage",
+          "price": "₹2,100",
+          "duration": "60 mins",
+          "description": "Pure coconut oil melts into skin with ease, offering antibacterial benefits, deep hydration, and a wonderfully tropical, calming experience.",
+          "benefits": ["Natural antibacterial", "Deep hydration", "Smooth & soft skin", "Stress relief"],
+          "image": "/images/services/coconut-oil.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Cream Treatments",
+      "services": [
+        {
+          "id": 9,
+          "name": "Papaya Cream Massage",
+          "price": "₹1,800",
+          "duration": "60 mins",
+          "description": "Papaya enzymes work as a natural exfoliant while the cream base moisturises deeply, leaving skin visibly brighter and silky smooth.",
+          "benefits": ["Natural exfoliation", "Skin brightening", "Deep moisturisation", "Uneven tone correction"],
+          "image": "/images/services/papaya-cream.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Strawberry Cream Massage",
+          "price": "₹1,800",
+          "duration": "60 mins",
+          "description": "Strawberry extracts rich in salicylic acid gently cleanse pores while the creamy formula pampers skin with a light, berry-fresh fragrance.",
+          "benefits": ["Pore cleansing", "Gentle exfoliation", "Fresh hydration", "Improved skin texture"],
+          "image": "/images/services/strawberry-cream.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Vitamin C Cream Massage",
+          "price": "₹2,000",
+          "duration": "60 mins",
+          "description": "Potent Vitamin C actives infused in a rich cream help fade dark spots, boost collagen production, and reveal a radiant, youthful complexion.",
+          "benefits": ["Dark spot fading", "Collagen boost", "Radiant glow", "Anti-ageing benefits"],
+          "image": "/images/services/vitamin-c-cream.jpg"
+        },
+        {
+          "id": 12,
+          "name": "Gold Cream Massage",
+          "price": "₹2,300",
+          "duration": "60 mins",
+          "description": "24-karat gold micro-particles in a luxurious cream stimulate cellular renewal, improve elasticity, and deliver an incomparable luminous finish.",
+          "benefits": ["24k gold actives", "Cellular renewal", "Improved elasticity", "Luminous skin finish"],
+          "image": "/images/services/gold-cream.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Scrub Therapies",
+      "services": [
+        {
+          "id": 13,
+          "name": "Rose Scrub",
+          "price": "₹2,000",
+          "duration": "45 mins",
+          "description": "Delicate rose petal granules gently buff away dead skin cells while rose water soothes and tones, leaving skin velvety smooth and fragrant.",
+          "benefits": ["Gentle exfoliation", "Rose water toning", "Soft velvety skin", "Relaxing floral aroma"],
+          "image": "/images/services/rose-scrub.jpg"
+        },
+        {
+          "id": 14,
+          "name": "Coffee Scrub",
+          "price": "₹2,000",
+          "duration": "45 mins",
+          "description": "Finely ground coffee granules energise circulation and reduce the appearance of cellulite while caffeine firms and tightens the skin.",
+          "benefits": ["Cellulite reduction", "Energised circulation", "Firming & tightening", "Detox effect"],
+          "image": "/images/services/coffee-scrub.jpg"
+        },
+        {
+          "id": 15,
+          "name": "De-Tan Scrub",
+          "price": "₹1,800",
+          "duration": "45 mins",
+          "description": "A targeted scrub formulated to dissolve sun tan and reveal your natural skin tone, fortified with brightening actives for an instant glow.",
+          "benefits": ["Tan removal", "Skin brightening", "Even skin tone", "Instant radiance"],
+          "image": "/images/services/detan-scrub.jpg"
+        },
+        {
+          "id": 16,
+          "name": "Vitamin C Scrub",
+          "price": "₹2,000",
+          "duration": "45 mins",
+          "description": "Citrus-infused exfoliating granules packed with Vitamin C work to resurface skin, fade pigmentation, and deliver a bright, refreshed complexion.",
+          "benefits": ["Skin resurfacing", "Pigmentation fade", "Brightening boost", "Refreshed complexion"],
+          "image": "/images/services/vitamin-c-scrub.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Gel Therapies",
+      "services": [
+        {
+          "id": 17,
+          "name": "Aloe Vera Gel Therapy",
+          "price": "₹2,000",
+          "duration": "60 mins",
+          "description": "Pure aloe vera gel calms inflammation, cools sun-stressed skin, and delivers intense hydration with every soothing application.",
+          "benefits": ["Cooling & soothing", "Intense hydration", "Inflammation relief", "After-sun repair"],
+          "image": "/images/services/aloe-vera-gel.jpg"
+        },
+        {
+          "id": 18,
+          "name": "Charcoal Gel Therapy",
+          "price": "₹2,000",
+          "duration": "60 mins",
+          "description": "Activated charcoal gel performs a deep magnetic cleanse, drawing out toxins, unclogging pores, and leaving skin remarkably clear and purified.",
+          "benefits": ["Deep pore cleansing", "Toxin removal", "Mattifying effect", "Clear smooth skin"],
+          "image": "/images/services/charcoal-gel.jpg"
+        },
+        {
+          "id": 19,
+          "name": "Vitamin C Gel Therapy",
+          "price": "₹2,000",
+          "duration": "60 mins",
+          "description": "A lightweight, fast-absorbing Vitamin C gel floods skin with antioxidants, visibly brightening dull complexions and evening out skin tone.",
+          "benefits": ["Fast-absorbing formula", "Antioxidant flood", "Instant brightening", "Even skin tone"],
+          "image": "/images/services/vitamin-c-gel.jpg"
+        },
+        {
+          "id": 20,
+          "name": "Gold Gel Therapy",
+          "price": "₹2,100",
+          "duration": "60 mins",
+          "description": "Liquid gold suspended in a silky gel formula penetrates deep to stimulate collagen, reduce fine lines, and impart a precious, lit-from-within glow.",
+          "benefits": ["Collagen stimulation", "Fine line reduction", "Skin firming", "Precious gold glow"],
+          "image": "/images/services/gold-gel.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:sunshinespa.in)",
+      "WebFetch(domain:www.pexels.com)"
+    ]
+  }
+}
